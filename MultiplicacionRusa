@@ -14,6 +14,7 @@ int multiplicacionRusa(int multiplicador,int multiplicando)
 
     }
     return acumulador;
+    cout<<"Esta multiplicacion es diferente a la normal";
 }
 int main()
 {
