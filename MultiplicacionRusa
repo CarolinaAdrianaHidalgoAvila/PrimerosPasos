@@ -26,6 +26,7 @@ int main()
      cout<<"Ingresa numero";
     cin>>multiplicando;
     r=multiplicacionRusa(multiplicador,multiplicando);
+    cout<<"Este es el resultado final";
     cout<<r;
     return 0;
 }
