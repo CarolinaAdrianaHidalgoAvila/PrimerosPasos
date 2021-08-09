@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int multiplicacionRusa(int multiplicador,int multiplicando)
+{
+     int acumulador=0;
+    while(multiplicador>=1)
+    {
+        if(multiplicador%2!=0)
+        {
+            acumulador=acumulador+multiplicando;
+        }
+         multiplicador=multiplicador/2;
+        multiplicando=multiplicando*2;
+
+    }
+    return acumulador;
+}
+int main()
+{
+   int r;
+   int multiplicador;
+   int multiplicando;
+    cout<<"Ingresa numero1";
+    cin>>multiplicador;
+     cout<<"Ingresa numero";
+    cin>>multiplicando;
+    r=multiplicacionRusa(multiplicador,multiplicando);
+    cout<<r;
+    return 0;
+}
